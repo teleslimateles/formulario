@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    </head>
+        <body>
+            <form name = "fteste" method = "" action ="">
+                <label> RA: </label>
+                <input type = "text" name = "txtra" id = "id_ra" placeholder = "RA" size = "15">
+                <br><br><br>
+
+                <label> Nome:</label>
+                <input type = "text" name = "txtnome" value = "Digite seu nome" size = "60" maxlength = "30" >
+                <br><br><br>
+
+                <label> Idade </label>
+                <input type = "number" name = "txt_idade" min = "10" max = "20" step = "2">
+                <br><br><br>
+
+                <label> Idade2 </label>
+                <input type = "range" name = "txt_idade2">
+                <br><br><br>
+
+                <label> Senha </label>
+                <input type = "password" name = "txt_senha">
+                <br><br><br>
+
+                <label> Celular </label>
+                <input type = "tel" name = "txt_celular">
+                <br><br><br>
+
+                <labe> Email </labe>
+                <input type = "email" name = "txt_email">
+                <br><br><br>
+
+                <label> Site </label>
+                <input type = "url" name = "txt_site">
+                <br><br><br>
+
+                <label> Data </label>
+                <input type = "date" name = "txt_data">
+                <br><br><br>
+
+                <label> Linguagem Preferida? </label>
+                <input type = "checkbox" value = "Java" name = "txtjava" > Java
+                <input type = "checkbox" value = "PHP" name = "txtphp" > PHP
+                <input type = "checkbox" value = "Python" name = "txtpy" > Python
+                <br><br><br>
+
+                <label> Cor Preferida? </label>
+                <input type = "radio" value = "azul" name = "txtcor" > Azul 
+                <input type = "radio" value = vermelho name = "txtcor" > Vermelho
+                <input type = "radio" value = amarelo name = "txtcor" > Amarelo
+                <br><br><br>
+
+                <fieldset>
+                    <legend> Estado </legend>
+                    <select name = "txtestado">
+                        <optgroup label = "sudeste">
+                            <option value = "RJ"> Rio de Janeiro </option>
+                            <option value = "SP" selected> São Paulo </option>
+                            <option value = "ES"> Espirito Santo </option>
+                        <optgroup> 
+                        <optgroup label = "sul">
+                            <option value = "SC"> Santa Catarina </option>
+                            <option value = "PR"> Parana </option>
+                        </optgroup>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <br><br><br>
+
+                <input type = "submit" value = "Salvar">
+                <input type = "reset" value = "Limpar">
+            </form>          
+        </body>
+</html>
